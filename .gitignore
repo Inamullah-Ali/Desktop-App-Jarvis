@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-electron
+release
+dist-ssr
+*.local
+*.tsbuildinfo
+.env
+.env.*
+
+# Local credentials
+*firebase-adminsdk*.json
+serviceAccountKey.json
+service-account*.json
+*.pem
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+memory/long_term.json
+google-profile/
+
+# Large downloaded executables
+ffmpeg.exe
+deno.exe
+cloudflared-windows-amd64.exe
+config/api_keys.json
